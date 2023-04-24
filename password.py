@@ -1,6 +1,11 @@
 import secrets
 import string
 
+
+print("Welcome to the password generator")
+print("Two secure passwords are printed below")
+
+
 # define the alphabet
 letters = string.ascii_letters
 digits = string.digits
