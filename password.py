@@ -8,7 +8,7 @@ special_chars = string.punctuation
 
 alphabet = special_chars + digits + letters
 
-pwd_length = 10
+pwd_length = 12
 
 #password string
 pwd = ''
