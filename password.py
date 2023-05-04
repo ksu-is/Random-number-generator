@@ -13,7 +13,8 @@ special_chars = string.punctuation
 
 alphabet = special_chars + digits + letters
 
-pwd_length = 12
+value = input("Enter length of password:")
+pwd_length = int(value)
 
 #password string
 pwd = ''
