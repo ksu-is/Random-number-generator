@@ -6,7 +6,8 @@ print("Welcome to the password generator")
 
 
 
-# define the alphabet
+# define the alphabet with special characters, digits, and letters
+
 letters = string.ascii_letters
 digits = string.digits
 special_chars = string.punctuation
@@ -19,6 +20,7 @@ pwd_length = int(value)
 print("Two secure passwords are printed below")
 
 #password string
+
 pwd = ''
 for i in range(pwd_length):
     pwd += ''.join(secrets.choice(alphabet))
@@ -26,6 +28,7 @@ for i in range(pwd_length):
 print(pwd)
 
 #create password with constraints
+
 while True:
     pwd = ''
     for i in range(pwd_length):
