@@ -3,7 +3,7 @@ import string
 
 
 print("Welcome to the password generator")
-print("Two secure passwords are printed below")
+
 
 
 # define the alphabet
@@ -15,6 +15,8 @@ alphabet = special_chars + digits + letters
 
 value = input("Enter length of password:")
 pwd_length = int(value)
+
+print("Two secure passwords are printed below")
 
 #password string
 pwd = ''
